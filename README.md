@@ -11,7 +11,8 @@ First thing I did was get all the images I needed from Docker Hub. The following
 Next I performed the following steps:
 - Created an artifact registry repository for housing the Docker images in GCP
 - Then I tagged all of the docker images I pulled on my local machine so that I could push them to the GCP artifact registry.
-- I then opened the Kubernetes Engine console in GCP and created a cluster from the containers for each application image I pushed to the artifact registry
+- I then opened the Kubernetes Engine console in GCP and created a cluster from the containers for each application image I pushed to the artifact registry (image below for reference):
+![creation](./screenshots/create_deployment.png)
 
 Below is the screenshot of the cluster running in GCP's offering of Kubernetes (running with errors):  
 
