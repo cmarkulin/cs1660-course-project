@@ -45,5 +45,5 @@ Estimated Grade:
 - Deploy on Kubernetes Cluster: 0% X
 - Deploy Kubernetes Cluster to GCP: 0% X
 - Bonus GUI for Driver: 20%
-- Bonus Milestone: 9%
+- Bonus Milestone: 9%   
 Total: ~79%
