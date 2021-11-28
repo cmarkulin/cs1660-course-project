@@ -1,5 +1,9 @@
-FROM python:3
-WORKDIR /usr/src/app
+FROM python:3.8
+
+WORKDIR /app
 COPY . .
-CMD ["terminal.py"]
-ENTRYPOINT ["python3"]
+
+run pip install -r requirements.txt
+
+ENTRYPOINT ["python"]
+CMD ["app.py"]
