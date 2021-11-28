@@ -93,7 +93,7 @@ li a:hover {
 <li><a href='http://localhost:8888/'> Jupyter Notebook </a></li>
 <li><a href='http://localhost:8080/'> Apache Spark </a></li>
 <li><a href='http://localhost:9870/'> Apache Hadoop </a></li>
-<li><a href='http://localhost:5000/'> SonarQube and SonarScanner </a></li>
+<li><a href='http://localhost:9000/'> SonarQube and SonarScanner </a></li>
 </ul>
 </body>'''
 
