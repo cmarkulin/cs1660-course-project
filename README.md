@@ -1,6 +1,6 @@
 # CS1660 - Course Project - Option 1 (CHM171)
 ## Video:
-![video](./1660_video.mp4)
+![video](https://drive.google.com/file/d/1kP2OasdckhE0nnBmGa6B08czrNV45D3R/view?usp=sharing)
 
 
 ## Steps to running the application
