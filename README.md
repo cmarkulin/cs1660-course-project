@@ -34,7 +34,7 @@ Note: Since I have not implemented Kubernetes, Spark will sometimes go down and 
 - Once started, you can connect to the Hadoop web interface by clicking on the Apache Hadoop link on the GUI.
 Note: Hadoop might also go down at some point, but what's nice about Hadoop is that it usually will restart itself unlike Spark. If for some reason Hadoop doesn't restart on it's own, then delete the container and images and then rerun the docker-compose command. If Hadoop goes down for a second, you will get a browser error when trying to connect to it via the GUI, but it should tell you that it's most likely because it is starting.
 
-### SonarQube Set Up (from sonarqube):
+### Sonar Set Up (from sonarqube):
 - Run `docker pull sonarqube` in the terminal to pull the base SonarQube image.
 - To run application, run the command `docker run -d --name sonarqube -p 9000:9000 -p 9092:9092 sonarqube` and then Sonar should be started.  
 
