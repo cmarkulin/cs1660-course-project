@@ -1,5 +1,5 @@
 # CS1660 - Course Project - Option 1 (CHM171)
-## Video:
+## Video (might have to press unmute button):
 
 
 https://user-images.githubusercontent.com/42789465/143763598-36d0fffc-4b41-49e5-a09e-8c45fc7fea58.mp4
@@ -40,5 +40,10 @@ Note: Hadoop might also go down at some point, but what's nice about Hadoop is t
 
 **Note: Because of the issue of me not being able to run this on my M1 Mac, I had to do it on a Windows PC in Ubuntu. I wasn't able to test if there were any conflicts because of this. However it looks like SonarQube and the Hadoop namenode share the same port number, so you might need to change one of them to get them to work simultaneously. I would recommend changing the port on SonarQube. If you end up changing any of the ports, then you MUST change the port in the link for the application in the `app.py` file for the GUI driver. After changing the port in the link, you must delete the container and image for the GUI and rerun the docker-compose command.**
 
-
-
+Estimated Grade:
+- Containerized the four applications: 50%
+- Deploy on Kubernetes Cluster: 0% X
+- Deploy Kubernetes Cluster to GCP: 0% X
+- Bonus GUI for Driver: 20%
+- Bonus Milestone: 9%
+Total: ~79%
